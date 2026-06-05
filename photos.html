@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photo Gallery — Shenzhen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600&display=swap"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a href="main.html" class="nav-brand">
+          <img src="media/navbar.png" alt="Shenzhen Travel Guide" />
+        </a>
+
+        <button
+          type="button"
+          class="nav-toggle"
+          aria-label="Toggle menu"
+          aria-controls="primary-menu"
+          aria-expanded="false"
+        >
+          <span class="icon icon-hamburger">&#9776;</span>
+        </button>
+
+        <ul id="primary-menu" class="nav-menu">
+          <li class="nav-item">
+            <a href="main.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="attraction.html" class="nav-link">Top Attractions</a>
+          </li>
+          <li class="nav-item">
+            <a href="guide.html" class="nav-link">Food Guide</a>
+          </li>
+          <li class="nav-item">
+            <a href="photos.html" class="nav-link">Photo Gallery</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="hero-image">
+          <img
+            src="media/main/main-webpage.jpeg"
+            alt="error: image not found"
+          />
+        </div>
+
+        <div class="page-hero-text">
+          <h1 class="page-title">Photo Gallery</h1>
+          <p class="page-intro">
+            A visual tour of what makes Shenzhen feel like a city from the
+            future with drones overhead, EVs in every lane, malls that across
+            city blocks, and architecture that looks impossible until you stand
+            under it.
+          </p>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <article class="gallery-card">
+          <h2 class="gallery-title">Drone Food Delivery</h2>
+          <div class="gallery-image">
+            <img
+              src="media/photos/drone-delivery.jpg"
+              alt="A Meituan delivery drone descending onto a pickup kiosk while customers wait nearby"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <p class="gallery-desc">
+            Order lunch and watch a Meituan drone drop it off at a pickup kiosk
+            minutes later. Shenzhen runs the largest commercial drone delivery
+            network in the world.
+          </p>
+        </article>
+
+        <article class="gallery-card">
+          <h2 class="gallery-title">Xiaomi SU7 &amp; the EV Boom</h2>
+          <div class="gallery-image">
+            <img
+              src="media/photos/xiaomi.webp"
+              alt="A teal Xiaomi SU7 electric sedan posed in a clean studio shot"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <p class="gallery-desc">
+            Look around any Shenzhen street and you'll see more EVs than gas
+            cars. The newest premium luxury sedan is the Xiaomi SU7, a high tech
+            electric car from a popular smartphone company.
+          </p>
+        </article>
+
+        <article class="gallery-card">
+          <h2 class="gallery-title">Shenzhen Mega Malls</h2>
+          <div class="gallery-image">
+            <img
+              src="media/photos/mall.webp"
+              alt="A multi-level Shenzhen shopping mall at night with bright signage and crowds on every floor"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <p class="gallery-desc">
+            Malls here aren't just for shopping as they're the entire city
+            blocks themselves, stacking everything from local Chinese brands to
+            every international luxury brand under one roof, plus restaurants,
+            cinemas, and ice rinks.
+          </p>
+        </article>
+
+        <article class="gallery-card">
+          <h2 class="gallery-title">DJI Flagship Store</h2>
+          <div class="gallery-image">
+            <img
+              src="media/photos/dji.webp"
+              alt="An array of DJI drones suspended from the ceiling inside the company's flagship retail store"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <p class="gallery-desc">
+            DJI is headquartered in Shenzhen, and their flagship store showcases
+            their lineup of drones and cameras hanging from the ceiling like a
+            fleet on display. A tech enthusiast's must see location to see why
+            DJI is the world's leading drone company.
+          </p>
+        </article>
+
+        <article class="gallery-card">
+          <h2 class="gallery-title">Night Skyline</h2>
+          <div class="gallery-image">
+            <img
+              src="media/photos/night-city.jpg"
+              alt="The Shenzhen Bay skyline at night with the Ping An Finance Center towering over the waterfront"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <p class="gallery-desc">
+            Once the sun goes down, Shenzhen turns into a light show. The city's
+            buildings put on a light show across the bay, the Ping An tower
+            glows above everything else as the whole skyline reflects on the
+            water.
+          </p>
+        </article>
+
+        <article class="gallery-card">
+          <h2 class="gallery-title">Marisfrolg Campus</h2>
+          <div class="gallery-image">
+            <img
+              src="media/photos/marisfrolg-campus.jpg"
+              alt="An aerial view of the Marisfrolg headquarters with its dramatic feathered shell-like architecture"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <p class="gallery-desc">
+            The Marisfrolg headquarters looks more like a creature than a
+            building with the overlapping shells, sweeping curves, and folded
+            forms that come from the designs of a sci-fi film. A pure example of
+            the wild architecture Shenzhen is becoming famous for.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p class="footer-brand">Shenzhen, China</p>
+        <ul class="footer-links">
+          <li><a href="main.html">Home</a></li>
+          <li><a href="attraction.html">Top Attractions</a></li>
+          <li><a href="guide.html">Food Guide</a></li>
+          <li><a href="photos.html">Photo Gallery</a></li>
+        </ul>
+        <p class="footer-copy">
+          &copy; 2026 Globetrotter. A Salesforce FTL project.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

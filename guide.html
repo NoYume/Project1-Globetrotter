@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Guide — Shenzhen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600&display=swap"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a href="main.html" class="nav-brand">
+          <img src="media/navbar.png" alt="Shenzhen Travel Guide" />
+        </a>
+
+        <button
+          type="button"
+          class="nav-toggle"
+          aria-label="Toggle menu"
+          aria-controls="primary-menu"
+          aria-expanded="false"
+        >
+          <span class="icon icon-hamburger">&#9776;</span>
+        </button>
+
+        <ul id="primary-menu" class="nav-menu">
+          <li class="nav-item">
+            <a href="main.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="attraction.html" class="nav-link">Top Attractions</a>
+          </li>
+          <li class="nav-item">
+            <a href="guide.html" class="nav-link">Food Guide</a>
+          </li>
+          <li class="nav-item">
+            <a href="photos.html" class="nav-link">Photo Gallery</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="hero-image">
+          <img
+            src="media/main/main-webpage.jpeg"
+            alt="error: image not found"
+          />
+        </div>
+
+        <div class="page-hero-text">
+          <h1 class="page-title">Food Guide</h1>
+          <p class="page-intro">
+            Shenzhen's food scene runs the full range, from popular milk tea
+            chains, fresh seafood off the dock, modern Cantonese fine dining,
+            and cheap dim sum restaurants.
+          </p>
+        </div>
+      </section>
+
+      <section class="restaurants">
+        <article class="restaurant-card">
+          <h2 class="restaurant-name">Chagee</h2>
+          <div class="restaurant-image">
+            <img
+              src="media/guide/chagee.jpg"
+              alt="The gold-and-black Chagee storefront with customers ordering at the counter"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <p class="restaurant-address">
+            Locations across Shenzhen — flagship at MixC World, Luohu District
+          </p>
+          <p class="restaurant-desc">
+            The country's favorite premium milk tea brand. Chagee focuses on
+            using real high quality fresh-brewed tea, and their signature Bo Ya
+            Jue Xian jasmine milk tea has become the order to beat in mainland
+            China.
+          </p>
+          <a
+            href="https://www.chagee.com/"
+            class="btn"
+            target="_blank"
+            rel="noopener"
+            >Visit Website</a
+          >
+        </article>
+
+        <article class="restaurant-card">
+          <h2 class="restaurant-name">Hai DaDa ZhengQi Seafood</h2>
+          <div class="restaurant-image">
+            <img
+              src="media/guide/seafood.jpg"
+              alt="A whole steamed king crab plated with garlic vermicelli"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <p class="restaurant-address">
+            2F Siji Lijing Building, No. 34 Jinji Road, Nanshan District,
+            Shenzhen China
+          </p>
+          <p class="restaurant-desc">
+            Pick your seafood live from the tanks and have it steamed to order.
+            King crab, lobster, geoduck, and abalone are the popular dishes.
+            Simple dishes with rich flavors that let the freshness do the work.
+          </p>
+          <a
+            href="https://us.trip.com/restaurant/china/shenzhen/detail/hai-dada-zhengqi-seafood-theme-restaurant-24484359/"
+            class="btn"
+            target="_blank"
+            rel="noopener"
+            >Visit Website</a
+          >
+        </article>
+
+        <article class="restaurant-card">
+          <h2 class="restaurant-name">Xin Rong Ji</h2>
+          <div class="restaurant-image">
+            <img
+              src="media/guide/fine-dinning.jpg"
+              alt="A plated fine-dining portion of glossy soy-glazed yellow chicken"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <p class="restaurant-address">
+            L6, Ping An Finance Center North Tower, Yitian Road
+          </p>
+          <p class="restaurant-desc">
+            A Michelin-starred Cantonese fine-dining destination known for its
+            yellow croaker, dry-aged duck, and a wine cellar that takes the meal
+            an extra step beyond. Reservations are a must on weekends.
+          </p>
+          <a
+            href="https://www.trip.com/restaurant/china/shenzhen/detail/xin-rong-ji-67820771/"
+            class="btn"
+            target="_blank"
+            rel="noopener"
+            >Visit Website</a
+          >
+        </article>
+
+        <article class="restaurant-card">
+          <h2 class="restaurant-name">Shang Palace</h2>
+          <div class="restaurant-image">
+            <img
+              src="media/guide/dimsum.jpg"
+              alt="Pink dim sum dumplings in a bamboo steamer"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <p class="restaurant-address">
+            Level 2 of Hotel, East Side, Railway Station, 1002 Jianshe Road,
+            Shenzhen
+          </p>
+          <p class="restaurant-desc">
+            One of Shenzhen's most popular dim sum destinations. Expect
+            incredible har gow, char siu bao, and a quiet, classic dining room.
+            Go for weekend lunch or early breakfast when the carts are at their
+            best.
+          </p>
+          <a
+            href="https://www.shangri-la.com/shenzhen/shangrila/dining/restaurants/shang-palace/"
+            class="btn"
+            target="_blank"
+            rel="noopener"
+            >Visit Website</a
+          >
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p class="footer-brand">Shenzhen, China</p>
+        <ul class="footer-links">
+          <li><a href="main.html">Home</a></li>
+          <li><a href="attraction.html">Top Attractions</a></li>
+          <li><a href="guide.html">Food Guide</a></li>
+          <li><a href="photos.html">Photo Gallery</a></li>
+        </ul>
+        <p class="footer-copy">
+          &copy; 2026 Globetrotter. A Salesforce FTL project.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
